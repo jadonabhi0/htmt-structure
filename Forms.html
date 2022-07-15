@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- <form> tag is used to create a form on a web page -->
+    <!-- type attribute is used to provide the type of entry -->
+    <!-- placeholder attribute is used to show the hint dummy text in box  -->
+    <!-- required attribute leads the mandaneness of entry -->
+    <!-- <select> tag is used for drop down list -->
+    <h1>Form</h1>
+    <br>
+    <form action="">
+        <label for="Username">Username</label>
+        <input type="text" id="Username" placeholder="Username" required>
+        <br><br>
+        <label for="Password">Password</label>
+        <input type="Password" id="Password"placeholder="Password" required>
+        <br><br>
+        <label for="Email">Email</label>
+        <input type="Email" id="Email" placeholder="Email" required>
+        <br><br>
+
+
+        <p>Select Your Gender</p>
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="1">
+
+        <label for="Femail">Femail</label>
+        <input type="radio" id="Female" name="1">
+
+        <label for="Other">Other</label>
+        <input type="radio" id="Other" name="1">
+        <br><br>
+
+        <label for="age_group">Select Age Your Group</label>
+        <select name="age_group_value" id="age_group">
+            <option value="5-10">5-10</option>
+            <option value="11-20">11-20</option>
+            <option value="21-25">21-25</option>
+            <option value="26-30">26-30</option>
+            <option value="31+">31+</option>
+        </select><br><br>
+        <input type="submit" value="Sign up">
+
+    </form>
+</body>
+</html>
